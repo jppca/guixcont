@@ -55,7 +55,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # =========================================================
 # APP
 # =========================================================
-WORKDIR /var/www/html
+WORKDIR /var/www/html/guixcont
 
 COPY . .
 
