@@ -5,6 +5,19 @@
         class="mb-4"
         :status="session('status')"
     />
+    <!-- Logo -->
+    <div class="flex justify-center mb-6 m-0">
+
+        <img
+            src="{{ asset('images/guixcont_logo.svg') }}"
+            alt="Logo"
+            class="w-32 h-auto"
+        >
+
+    </div>
+    <div class="text-center mb-10">
+        <h1 class="h1" >GuixCont</h1>
+    </div>
 
     <form method="POST" action="{{ route('login') }}">
 
